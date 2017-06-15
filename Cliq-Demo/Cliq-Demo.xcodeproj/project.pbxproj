@@ -38,6 +38,7 @@
 		814EABFF1EF267F000AAF2E8 = {
 			isa = PBXGroup;
 			children = (
+				814EAC1D1EF26AF500AAF2E8 /* Cliq-Source */,
 				814EAC0A1EF267F000AAF2E8 /* Cliq-Demo */,
 				814EAC091EF267F000AAF2E8 /* Products */,
 			);
@@ -62,6 +63,13 @@
 				814EAC171EF267F000AAF2E8 /* Info.plist */,
 			);
 			path = "Cliq-Demo";
+			sourceTree = "<group>";
+		};
+		814EAC1D1EF26AF500AAF2E8 /* Cliq-Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cliq-Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
