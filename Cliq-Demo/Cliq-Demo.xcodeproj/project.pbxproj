@@ -12,6 +12,9 @@
 		814EAC111EF267F000AAF2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814EAC0F1EF267F000AAF2E8 /* Main.storyboard */; };
 		814EAC131EF267F000AAF2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814EAC121EF267F000AAF2E8 /* Assets.xcassets */; };
 		814EAC161EF267F000AAF2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814EAC141EF267F000AAF2E8 /* LaunchScreen.storyboard */; };
+		814EAC1F1EF26F6100AAF2E8 /* CliqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814EAC1E1EF26F6100AAF2E8 /* CliqViewController.swift */; };
+		814EAC211EF2703200AAF2E8 /* CQAlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814EAC201EF2703200AAF2E8 /* CQAlbumViewCell.swift */; };
+		814EAC231EF2706F00AAF2E8 /* CQAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814EAC221EF2706F00AAF2E8 /* CQAlbumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		814EAC121EF267F000AAF2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814EAC151EF267F000AAF2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814EAC171EF267F000AAF2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814EAC1E1EF26F6100AAF2E8 /* CliqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CliqViewController.swift; sourceTree = "<group>"; };
+		814EAC201EF2703200AAF2E8 /* CQAlbumViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQAlbumViewCell.swift; sourceTree = "<group>"; };
+		814EAC221EF2706F00AAF2E8 /* CQAlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQAlbumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 		814EAC1D1EF26AF500AAF2E8 /* Cliq-Source */ = {
 			isa = PBXGroup;
 			children = (
+				814EAC1E1EF26F6100AAF2E8 /* CliqViewController.swift */,
+				814EAC201EF2703200AAF2E8 /* CQAlbumViewCell.swift */,
+				814EAC221EF2706F00AAF2E8 /* CQAlbumView.swift */,
 			);
 			path = "Cliq-Source";
 			sourceTree = "<group>";
@@ -144,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814EAC211EF2703200AAF2E8 /* CQAlbumViewCell.swift in Sources */,
+				814EAC231EF2706F00AAF2E8 /* CQAlbumView.swift in Sources */,
 				814EAC0E1EF267F000AAF2E8 /* ViewController.swift in Sources */,
+				814EAC1F1EF26F6100AAF2E8 /* CliqViewController.swift in Sources */,
 				814EAC0C1EF267F000AAF2E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
