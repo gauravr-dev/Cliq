@@ -16,13 +16,21 @@ class ViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+    }
+    
+    
+    @IBAction func onTapLibrary(sender: UIButton) {
         let cliq = CliqViewController()
         
-        self.present(cliq, animated: true) { 
+        self.present(cliq, animated: true) {
             
         }
     }
+    
+    @IBAction func onTapCamera(sender: UIButton) {
+        
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
